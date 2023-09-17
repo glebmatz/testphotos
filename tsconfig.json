@@ -1,0 +1,18 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@api/*": ["./src/api/*"],
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"],
+      "@screens": ["./src/screens"],
+      "@screens/*": ["./src/screens/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@store/*": ["./src/store/*"],
+      "@navigation": ["./src/navigation"],
+      "@navigation/*": ["./src/navigation/*"],
+      "@appTypes": ["./src/types"],
+      "@appTypes/*": ["./src/types/*"],
+    }
+  }
+}
